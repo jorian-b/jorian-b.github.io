@@ -695,12 +695,17 @@ footer {
 */
 
 #skills {
-    padding: 50px 15px;
+    padding: 30px 5px;
     text-align: center;
 
     h2 {
         color: $heading;
-        margin-bottom: 50px;
+        margin-bottom: 10px;
+    }
+	
+	h4 {
+        color: $heading;
+        margin: 5px;
     }
 
     ul {
@@ -712,14 +717,33 @@ footer {
 
     li {
         display: inline-block;
-        margin: 7px;
-        padding: 5px 10px;
+        margin: 4px;
+        padding: 2px 6px;
         color: $heading;
         background: darken($background-alt, 5%);
         list-style: none;
         cursor: default;
-        font-size: 1.2em;
+        font-size: 1em;
     }
+}
+
+ul.tags
+{
+	display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+ul.tags li
+{
+	display: inline-block;
+	margin: 2px;
+	padding: 2px 4px;
+	color: $heading;
+	background: darken($background-alt, 5%);
+	list-style: none;
+	cursor: default;
+	font-size: 0.8em;
 }
 
 /*
