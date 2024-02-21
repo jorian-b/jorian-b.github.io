@@ -235,6 +235,16 @@ header {
     }
 }
 
+.info-text {
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.video {
+    position:relative;
+    width: 100%;
+}
+
 footer {
     padding: 50px 0;
 }
@@ -652,12 +662,16 @@ footer {
 
 .project-image {
     float: left;
-}
-
-.project-info {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+	
+	img {
+		max-width: 300px;
+	}
+}
+
+.project-info {
     margin-left: 300px;
     padding: 15px;
 
