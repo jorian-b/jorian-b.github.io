@@ -665,9 +665,10 @@ footer {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    background: lightgray;
 	
 	img {
-		max-width: 300px;
+		width: 300px;
 	}
 }
 

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="index.html#about" class="no-scroll">About</a>
+            </li>
+            <li>
+                <a href="index.html#projects" class="no-scroll">Projects</a>
+            </li>
+            <li>
+                <a href="index.html#contact" class="no-scroll">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+    <!-- End -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">Open source<br>Utilities</h2>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/projects/tools/github-logo.png" style="height: 200px"></img>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/projects/tools/rhinox-logo.png" style="height: 200px"></img>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+
+                    <p>
+                        During my time at Rhinox, I collaborated on utility libraries with a colleague, which have grown significantly in scope and functionality.
+                        Crafted to streamline project development, these tools have become integral to our workflow, enhancing efficiency and ensuring consistency.
+                        They tackle common challenges, from complex algorithms to data management, driving innovation and accelerating project delivery.
+                        <br><br>
+                        I also contributed to several other closed-source packages during my time at Rhinox.
+                        However, due to their proprietary nature, I am unable to provide further details about these projects.
+                    </p>
+
+                    <h3>
+                        <a href="https://github.com/Rhinox-Training/rhinox-lightspeed">Lightspeed</a>
+                    </h3>
+                    <p>
+                        A lightweight coding extensions library for unity/C# offering lots of extensions, utility methods & other helpers.
+                    </p>
+
+                    <h3>
+                        <a href="https://github.com/Rhinox-Training/rhinox-guiutils">Gui Utils</a>
+                    </h3>
+                    <p>
+                        Same as Lightspeed but focused on the editor. Contains lots of utilities, common base classes, and even a completely custom drawing system for unity's editor.
+                    </p>
+
+                    <h3>
+                        <a href="https://github.com/Rhinox-Training/rhinox-utilities">Utilities</a>
+                    </h3>
+                    <p>
+                        Lightspeed and GuiUtils are just utilities and do not change the behaviour of unity as is. Utility uses both to provide a bunch of additions like custom windows, 
+                        custom inspectors, and a bunch of common monobehaviours.
+                    </p>
+
+                    <h3>
+                        <a href="https://github.com/Rhinox-Training/magnus">Magnus</a>
+                    </h3>
+                    <p>
+                        A general purpose framework that adds various features like services, players, level loading, loading scene, etc, to Unity.
+                    </p>
+
+                    <h3>
+                        <a href="https://github.com/Rhinox-Training/magnus-tasks">Magnus Tasks</a>
+                    </h3>
+                    <p>
+                        An extension for the magnus framework that provides you with a very flexible TaskManager, which allows you to setup sequential steps to complete.
+                    </p>
+
+                    <h3>
+                        <a href="https://github.com/Rhinox-Training/vortex">Vortex</a>
+                    </h3>
+                    <p>
+                        A generic implementation for a datalayer in Unity. The open source version only supports simple file saving, but it is easily extended to handle whatever you like.
+                    </p>
+
+                    <h3>
+                        <a href="https://github.com/Rhinox-Training/rhinox-rendering">Rendering</a>
+                    </h3>
+                    <p>
+                        A few basic utilities for differentiating between Render Pipelines & some common sub shaders / URP base classes.
+                    </p>
+
+                    <h3>
+                        <a href="https://github.com/Rhinox-Training/rhinox-perceptor">Perceptor</a>
+                    </h3>
+                    <p>
+                        A logging framework that allows you to flexibly add channels and then choose which log level you wish to see per channel.
+                    </p>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+
+            <br>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; <span id="current-year">2023</span> Jorian Baeke
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/jorian-b" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/jorian-baeke-236354106/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
